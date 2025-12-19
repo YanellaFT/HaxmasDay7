@@ -1,0 +1,27 @@
+body {
+    font-family: cursive, sans-serif;
+    /*background-image: */
+    color: rgb(75, 230, 230);
+}
+
+#header, #footer {
+    text-align: center;
+}
+
+#tree-container {
+    max-width: 20rem;
+    display: flex;
+    margin: auto;
+}
+
+#tree {
+    width: 20rem;
+    margin-top: 4rem;
+}
+
+#star {
+    position: relative;
+    margin: 0 -13rem;
+    font-size: 5rem;
+    cursor: pointer;
+}
