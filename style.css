@@ -1,7 +1,11 @@
 body {
     font-family: cursive, sans-serif;
-    /*background-image: */
-    color: rgb(75, 230, 230);
+    /*background-image: url("img/snow.gif");*/
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-attachment: fixed;
+    color: rgb(236, 33, 33);
 }
 
 #header, #footer {
@@ -12,16 +16,70 @@ body {
     max-width: 20rem;
     display: flex;
     margin: auto;
+    position: relative;
 }
 
 #tree {
+    display: inline;
     width: 20rem;
     margin-top: 4rem;
+    z-index: 0;
+
 }
 
 #star {
+    display: inline-block;
     position: relative;
     margin: 0 -13rem;
+    /*margin: auto - 12rem;*/
+    align-items: center;
     font-size: 5rem;
     cursor: pointer;
+    color: yellow;
+    z-index: 5;
+}
+
+#ornament1 {
+    position: absolute;
+    top: 9rem;
+    left: 9rem;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#ornament2 {
+    position: absolute;
+    top: 23rem;
+    left: 10rem;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#ornament3 {
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#ornament4 {
+    position: absolute;
+    top: 20rem;
+    left: 5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#ornament5 {
+    position: absolute;
+    top: 18rem;
+    left: 13rem;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
 }
