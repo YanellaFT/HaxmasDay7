@@ -13,7 +13,7 @@ function changeStar() {
 
 function changeOrnament(id) {
     let ranIndex = Math.floor(Math.random() * 18);
-    document.getElementById("id").innerText = ornamentImg[ranIndex];
+    document.getElementById(id).innerText = ornamentImg[ranIndex];
 }
 
 document.addEventListener('DOMContentLoaded', () => {

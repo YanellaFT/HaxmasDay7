@@ -1,6 +1,6 @@
 body {
     font-family: cursive, sans-serif;
-    /*background-image: url("img/snow.gif");*/
+    background-image: url("img/snow.gif");
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center center;
